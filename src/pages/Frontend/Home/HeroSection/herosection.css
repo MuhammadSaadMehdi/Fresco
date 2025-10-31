@@ -1,0 +1,68 @@
+.hero-section {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+/* center text */
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.hero-content h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+/* fork & knife sides */
+.fork-img,
+.knife-img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 300px;
+  z-index: 2;
+  opacity: 0.8;
+}
+
+.fork-img {
+  left: 50px;
+  margin-left: 150px;
+}
+
+.knife-img {
+  right: 50px;
+  margin-right: 150px;
+  
+}

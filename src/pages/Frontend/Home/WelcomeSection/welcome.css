@@ -1,0 +1,94 @@
+.welcome-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px;
+  background: #fff;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.welcome-text {
+  flex: 1;
+  max-width: 500px;
+}
+
+.subtitle {
+  color: #999;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.welcome-text h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.welcome-text h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.desc {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.about-btn {
+  background-color: orangered;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.about-btn:hover {
+  background-color: #d84315;
+}
+
+/* Right side images */
+.welcome-images {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex: 1;
+}
+
+.main-img {
+  width: 300px;
+  height: 380px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.overlay-card {
+  position: relative;
+}
+
+.overlay-img {
+  width: 250px;
+  height: 380px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  z-index: 2;
+}
+
+.overlay-text h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}

@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: orangered;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.navbar img {
+  height: 60px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 30px;
+  font-size: 18px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  padding-bottom: 5px;
+}
+
+.nav-links a:hover {
+  color: yellow;
+  border-bottom: 2px solid yellow;
+}
